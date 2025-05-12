@@ -94,13 +94,263 @@
         </div>
       </div>
     </header>
-    <div class="coming-soon">
-      <h1>Coming Soon</h1>
-      <p>
-        We're working hard to bring you the AURA product experience.
-        <br />
-        Check back soon!
-      </p>
+    <div
+      class="dashboard-demo"
+      style="background: #f8fafc; min-height: 70vh; padding: 40px 0;"
+    >
+      <div class="container">
+        <div class="row mb-4" style="margin-top: 6.5rem;">
+          <div class="col-lg-8">
+            <h2 style="font-weight: 800; font-size: 2.2rem;">
+              Project Risk Dashboard
+            </h2>
+            <div class="d-flex align-items-center mt-3">
+              <span
+                style="font-size: 1.1rem; font-weight: 600; color: #ff6f61;"
+              >
+                Project Health:
+              </span>
+              <span class="badge bg-success ms-2" style="font-size: 1rem;">
+                On Track
+              </span>
+              <span class="badge bg-warning ms-2" style="font-size: 1rem;">
+                2 At Risk
+              </span>
+              <span class="badge bg-danger ms-2" style="font-size: 1rem;">
+                1 Critical
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+            <div
+              style="
+                background: #fff;
+                border-radius: 12px;
+                padding: 1.2rem 1.5rem;
+                box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+                display: inline-block;
+              "
+            >
+              <div style="font-size: 1.1rem; font-weight: 600; color: #888;">
+                Risk Score
+              </div>
+              <div style="font-size: 2.2rem; font-weight: 800; color: #ff6f61;">
+                78/100
+              </div>
+              <div class="progress" style="height: 8px; background: #ffe5e1;">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 78%; background: #ff6f61;"
+                  aria-valuenow="78"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-md-3 col-6 mb-3">
+            <div class="card shadow-sm border-0 text-center p-3">
+              <div style="font-size: 2rem; color: #ff6f61;">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+              </div>
+              <div style="font-size: 1.7rem; font-weight: 700;">7</div>
+              <div style="color: #888; font-weight: 600;">Open Risks</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 mb-3">
+            <div class="card shadow-sm border-0 text-center p-3">
+              <div style="font-size: 2rem; color: #ff6f61;">
+                <i class="fa-solid fa-fire"></i>
+              </div>
+              <div style="font-size: 1.7rem; font-weight: 700;">2</div>
+              <div style="color: #888; font-weight: 600;">Critical Risks</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 mb-3">
+            <div class="card shadow-sm border-0 text-center p-3">
+              <div style="font-size: 2rem; color: #ff6f61;">
+                <i class="fa-solid fa-circle-check"></i>
+              </div>
+              <div style="font-size: 1.7rem; font-weight: 700;">12</div>
+              <div style="color: #888; font-weight: 600;">Resolved Risks</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 mb-3">
+            <div class="card shadow-sm border-0 text-center p-3">
+              <div style="font-size: 2rem; color: #ff6f61;">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div style="font-size: 1.7rem; font-weight: 700;">4d</div>
+              <div style="color: #888; font-weight: 600;">
+                Avg. Time to Mitigate
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <div class="card shadow-sm border-0 p-4 h-100">
+              <div
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                <div style="font-weight: 700; font-size: 1.1rem;">
+                  Risk Timeline
+                </div>
+                <span style="color: #888; font-size: 0.95rem;">
+                  Last 30 days
+                </span>
+              </div>
+              <img
+                src="assets/images/dashboard-risk-timeline.png"
+                alt="Risk Timeline Chart"
+                style="
+                  width: 100%;
+                  max-width: 420px;
+                  display: block;
+                  margin: auto;
+                "
+              />
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card shadow-sm border-0 p-4 h-100">
+              <div style="font-weight: 700; font-size: 1.1rem;">
+                Sentiment Analysis
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center my-3"
+              >
+                <img
+                  src="assets/images/dashboard-sentiment-pie.png"
+                  alt="Sentiment Pie Chart"
+                  style="width: 110px; height: 110px;"
+                />
+                <div class="ms-4">
+                  <div
+                    style="font-size: 2rem; font-weight: 800; color: #ff6f61;"
+                  >
+                    60%
+                  </div>
+                  <div style="font-weight: 600; color: #888;">Positive</div>
+                  <div style="font-size: 1.1rem; color: #888;">
+                    Team sentiment is improving this week.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-between"
+                style="font-size: 0.98rem;"
+              >
+                <span style="color: #ff6f61; font-weight: 600;">Positive</span>
+                <span style="color: #888;">60%</span>
+                <span style="color: #888;">Neutral</span>
+                <span style="color: #888;">25%</span>
+                <span style="color: #888;">Negative</span>
+                <span style="color: #888;">15%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <div class="card shadow-sm border-0 p-4 h-100">
+              <div style="font-weight: 700; font-size: 1.1rem;">Top Risks</div>
+              <div class="table-responsive mt-3">
+                <table class="table table-borderless align-middle mb-0">
+                  <thead>
+                    <tr style="color: #888; font-size: 0.98rem;">
+                      <th>Risk Name</th>
+                      <th>Owner</th>
+                      <th>Status</th>
+                      <th>Severity</th>
+                      <th>Last Updated</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Vendor Delay</td>
+                      <td>Jane D.</td>
+                      <td><span class="badge bg-warning">At Risk</span></td>
+                      <td>High</td>
+                      <td>2 days ago</td>
+                    </tr>
+                    <tr>
+                      <td>Budget Overrun</td>
+                      <td>Mike S.</td>
+                      <td><span class="badge bg-danger">Critical</span></td>
+                      <td>Critical</td>
+                      <td>Today</td>
+                    </tr>
+                    <tr>
+                      <td>Scope Creep</td>
+                      <td>Sarah L.</td>
+                      <td><span class="badge bg-success">Resolved</span></td>
+                      <td>Medium</td>
+                      <td>3 days ago</td>
+                    </tr>
+                    <tr>
+                      <td>Resource Shortage</td>
+                      <td>Alex P.</td>
+                      <td><span class="badge bg-warning">At Risk</span></td>
+                      <td>High</td>
+                      <td>Yesterday</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card shadow-sm border-0 p-4 h-100">
+              <div style="font-weight: 700; font-size: 1.1rem;">
+                Recent Alerts
+              </div>
+              <ul class="list-unstyled mt-3 mb-0" style="font-size: 1.05rem;">
+                <li class="mb-3">
+                  <i class="fa-solid fa-bolt text-warning me-2"></i>
+                  <strong>Budget Overrun</strong>
+                  – Critical risk detected.
+                  <span class="badge bg-danger">Critical</span>
+                </li>
+                <li class="mb-3">
+                  <i class="fa-solid fa-user-group text-info me-2"></i>
+                  <strong>Resource Shortage</strong>
+                  – Team flagged resource gap.
+                  <span class="badge bg-warning">At Risk</span>
+                </li>
+                <li class="mb-3">
+                  <i
+                    class="fa-solid fa-triangle-exclamation text-danger me-2"
+                  ></i>
+                  <strong>Vendor Delay</strong>
+                  – Delivery behind schedule.
+                  <span class="badge bg-warning">At Risk</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check text-success me-2"></i>
+                  <strong>Scope Creep</strong>
+                  – Mitigated and resolved.
+                  <span class="badge bg-success">Resolved</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col text-center">
+            <div
+              class="alert alert-info d-inline-block"
+              style="font-size: 1.15rem;"
+            >
+              Want to see live data?
+              <strong>Try the Product (Coming Soon)</strong>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <footer>
       <div class="container">
